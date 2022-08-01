@@ -1,0 +1,20 @@
+m_count = int(input('monster count: '))
+m_index = int(input('monster index: '))
+
+m_damage = []
+
+for i in range(m_count):
+    print('урон', end = ' ')
+    damage = int(input('damge: '))
+    m_damage.append(damage)
+
+for i in range(m_count):
+    if m_damage[i] < 100 and i != m_index - 1:
+        m_damage[i] += m_damage[m_index - 1]
+
+print(m_damage)
+
+
+
+
+

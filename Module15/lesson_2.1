@@ -1,0 +1,130 @@
+# nums_list = []
+#
+# N = int(input('Кол-во чисел в списке: '))
+#
+# for _ in range(N):
+#     num = int(input('Очередное число: '))
+#
+#     nums_list.append(num)
+#
+# maximum = nums_list[1]
+#
+# minimum = nums_list[1]
+#
+# for i in nums_list:
+#
+#     if maximum < i:
+#         maximum = i
+#
+#     if minimum > i:
+#         minimum = i
+#
+# print('Максимальное число в списке:', maximum)
+#
+# print('Минимальное число в списке:', minimum)
+
+# n = int(input('please enter a number of numbers: '))
+#
+# number_list = []
+#
+#
+# for i in range(n):
+#     number = int(input('please enter a number: '))
+#     number_list.append(number)
+#
+# divider = int(input('please enter divider: '))
+# index_summ = 0
+#
+# for i in range(n):
+#     if number_list[i] % divider == 0:
+#         index_summ += i
+#         print('the  index of number', str(number_list[i]) + ':', i)
+#
+# print('the summ of index:', index_summ)
+
+# list = [210, 14, 1, 18, 7]
+#
+# max = list[0]
+# min = list[0]
+#
+# for i in list:
+#     if max < i:
+#         max = i
+#     if min > i:
+#         min = i
+#
+# for i in range(5):
+#     if list[i] == max:
+#         list[i] = min
+#         continue
+#
+#     if list[i] == min:
+#         list[i] = max
+#         continue
+#
+#
+# print(list)
+
+# text = input('input a text:  ')
+#
+# text_list = list(text)
+# new_word = ''
+# count = 0
+#
+# for i in text_list:
+#     if i == ':':
+#         new_word += ';'
+#         count += 1
+#     else:
+#         new_word += i
+#
+# print(new_word)
+# # print(count)
+#
+# text = input('enter a text: ')
+# ind = int(input('input an index: '))
+#
+# list_text = list(text)
+# count = 0
+#
+# if list_text[ind - 2] == list_text[ind - 1]:
+#     count += 1
+# if list_text[ind] == list_text[ind - 1]:
+#     count += 1
+#
+# print('the symbol on the left', list_text[ind - 2])
+# print('the symbol on the right', list_text[ind])
+#
+# if count == 1:
+#     print('there are one the same symbol')
+# elif count == 2:
+#     print('there are two the same symbols')
+# else:
+#     print('there are no the same symbols')
+
+# word_list = []
+# count = [0,0,0]
+#
+# for i in range(3):
+#     word = input('input the word: ')
+#     word_list.append(word)
+#
+# print(word_list)
+# text = ''
+#
+#
+# while text != 'end':
+#     text = input('input the text)')
+#     for i in range(3):
+#         if text == word_list[i]:
+#             count[i] += 1
+#
+# print(word_list[0], count[0])
+# print(word_list[1], count[1])
+# print(word_list[2], count[2])
+#
+
+
+
+
+
